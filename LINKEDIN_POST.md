@@ -25,15 +25,20 @@ I kept losing things I copied 10 minutes ago. So I built the clipboard manager A
 ✅ This one is **100% local** — history index is AES-256-GCM encrypted, key stays in your macOS Keychain
 ✅ **$0 forever** — no subscriptions, no telemetry, no catch
 
-**Install (2 commands):**
+**Download (free, no sign-up):**
+
+👉 **https://github.com/chrisgomes1211/ClipboardHistory/releases/tag/v1.0**
+
+1. Grab `ClipboardHistory-macOS.zip` → unzip
+2. Double-click **install.command** — installs + starts at login
+3. Press **⌥V** (first paste asks for Accessibility permission — one toggle)
+
+Or build from source:
 
 ```sh
-git clone <repo-url> && cd clipboard-history
+git clone https://github.com/chrisgomes1211/ClipboardHistory.git && cd ClipboardHistory
 ./build.sh --install
 ```
-
-That's it — it builds, installs to ~/Applications, and starts at login.
-(First paste asks for Accessibility permission — one toggle in System Settings.)
 
 **Use it:**
 
